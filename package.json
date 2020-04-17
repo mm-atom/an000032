@@ -41,11 +41,15 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000014": "1.0.202004170831",
-		"@mmstudio/an000016": "1.0.202004170801",
 		"uuid": "7.0.3"
 	},
+	"peerDependencies": {
+		"@mmstudio/an000014": "*",
+		"@mmstudio/an000016": "*"
+	},
 	"devDependencies": {
+		"@mmstudio/an000014": "latest",
+		"@mmstudio/an000016": "latest",
 		"@mmstudio/an000031": "latest",
 		"@mmstudio/config": "latest",
 		"@mmstudio/global": "latest",
